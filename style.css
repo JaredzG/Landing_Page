@@ -86,13 +86,13 @@ ul {
 }
 
 .content h1 {
-    font-size: min(5vw, 48px);
+    font-size: clamp(1rem, 4vw, 3rem);
     margin: 0;
     color: #f9faf8;
 }
 
 .content p {
-    font-size: min(2vw, 18px);
+    font-size: clamp(1rem, 2vw, 1.25rem);
     color: #e5e7eb;
     margin: 0;
 }
