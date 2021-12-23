@@ -32,6 +32,7 @@ img {
 figure > img {
     border: 0.25rem solid var(--clr-accent);
     border-radius: 1rem;
+    margin-bottom: 1rem;
 }
 
 header {
@@ -71,6 +72,7 @@ footer {
     .header-logo {
         font-size: var(--fsize-main);
         font-weight: bold;
+        margin-bottom: 1em;
     }
 
     button {
@@ -79,7 +81,6 @@ footer {
 
     figure > img {
         margin-inline: auto;
-        margin-bottom: 1rem;
     }
 }
 
@@ -100,6 +101,10 @@ footer {
     margin-inline: auto;
     padding-block: 2rem;
     max-width: min(90%, 60rem);
+}
+
+.split.text-center {
+    max-width: min(100%, 60rem);
 }
 
 @media (min-width: 64rem) {
